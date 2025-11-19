@@ -16,7 +16,7 @@ export class SettingsProvider {
 
         this.panel = vscode.window.createWebviewPanel(
             'aReaderSettings',
-            'A-Reader 配置',
+            'OM-TXT-Reader 配置',
             vscode.ViewColumn.One,
             {
                 enableScripts: true,
@@ -111,7 +111,7 @@ export class SettingsProvider {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A-Reader 配置</title>
+    <title>OM-TXT-Reader 配置</title>
     <style>
         * {
             margin: 0;
@@ -279,7 +279,7 @@ export class SettingsProvider {
 </head>
 <body>
     <div class="header">
-        <h1>⚙️ A-Reader 配置</h1>
+        <h1>⚙️ OM-TXT-Reader 配置</h1>
     </div>
     
     <form id="settings-form">

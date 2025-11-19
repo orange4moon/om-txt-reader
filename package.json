@@ -1,17 +1,17 @@
 {
-  "name": "a-reader",
-  "displayName": "A-Reader",
+  "name": "om-txt-reader",
+  "displayName": "OM-TXT-Reader",
   "description": "一个在 VS Code 中阅读 txt 文档的插件。",
   "version": "0.1.2",
   "publisher": "orange4moon",
   "repository": {
     "type": "git",
-    "url": "https://github.com/orange4moon/a-reader.git"
+    "url": "https://github.com/orange4moon/om-txt-reader.git"
   },
   "bugs": {
-    "url": "https://github.com/orange4moon/a-reader/issues"
+    "url": "https://github.com/orange4moon/om-txt-reader/issues"
   },
-  "homepage": "https://github.com/orange4moon/a-reader#readme",
+  "homepage": "https://github.com/orange4moon/om-txt-reader#readme",
   "qna": "marketplace",
   "keywords": [
     "txt",
@@ -35,23 +35,23 @@
     "commands": [
       {
         "command": "aReader.openBookshelf",
-        "title": "a-reader: 打开阅读器"
+        "title": "om-txt-reader: 打开阅读器"
       },
       {
         "command": "aReader.openSettings",
-        "title": "a-reader: 打开配置"
+        "title": "om-txt-reader: 打开配置"
       },
       {
         "command": "aReader.search",
-        "title": "a-reader: 搜索文本"
+        "title": "om-txt-reader: 搜索文本"
       },
       {
         "command": "aReader.showChapters",
-        "title": "a-reader: 显示章节列表"
+        "title": "om-txt-reader: 显示章节列表"
       },
       {
         "command": "aReader.configureBookPattern",
-        "title": "a-reader: 配置当前文档章节分割规则"
+        "title": "om-txt-reader: 配置当前文档章节分割规则"
       }
     ],
     "keybindings": [
@@ -69,7 +69,7 @@
       }
     ],
     "configuration": {
-      "title": "A-Reader",
+      "title": "OM-TXT-Reader",
       "properties": {
         "aReader.booksDirectory": {
           "type": "string",

@@ -9,7 +9,7 @@ let bookshelfProvider: BookshelfProvider | undefined;
 let settingsProvider: SettingsProvider | undefined;
 
 export function activate(context: vscode.ExtensionContext) {
-    console.log('A-Reader 插件已激活');
+    console.log('OM-TXT-Reader 插件已激活');
 
     bookshelfProvider = new BookshelfProvider(context.extensionUri);
     settingsProvider = new SettingsProvider(context.extensionUri);
@@ -140,7 +140,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     // 欢迎消息
     // vscode.window.showInformationMessage(
-    //     'A-Reader 已启动！按 Cmd/Ctrl+Shift+P，输入 "a-reader: 打开阅读器" 开始使用'
+    //     'OM-TXT-Reader 已启动！按 Cmd/Ctrl+Shift+P，输入 "om-txt-reader: 打开阅读器" 开始使用'
     // );
 }
 

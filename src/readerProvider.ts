@@ -285,7 +285,7 @@ export class TxtReaderProvider {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A-Reader</title>
+    <title>OM-TXT-Reader</title>
     <style>
         * {
             margin: 0;

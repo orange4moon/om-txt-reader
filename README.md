@@ -1,11 +1,11 @@
-# A-Reader
+# OM-TXT-Reader
 
 一个在 VS Code 中阅读 txt 文档的插件。
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/orange4moon.a-reader?label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=orange4moon.a-reader)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/orange4moon.a-reader)](https://marketplace.visualstudio.com/items?itemName=orange4moon.a-reader)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/orange4moon.a-reader)](https://marketplace.visualstudio.com/items?itemName=orange4moon.a-reader)
-[![GitHub](https://img.shields.io/badge/GitHub-orange4moon/a--reader-blue?logo=github)](https://github.com/orange4moon/a-reader)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/orange4moon.om-txt-reader?label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=orange4moon.om-txt-reader)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/orange4moon.om-txt-reader)](https://marketplace.visualstudio.com/items?itemName=orange4moon.om-txt-reader)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/orange4moon.om-txt-reader)](https://marketplace.visualstudio.com/items?itemName=orange4moon.om-txt-reader)
+[![GitHub](https://img.shields.io/badge/GitHub-orange4moon/om--txt--reader-blue?logo=github)](https://github.com/orange4moon/om-txt-reader)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 ## 📦 安装
@@ -14,28 +14,28 @@
 
 1. 打开 VS Code
 2. 按 `Cmd/Ctrl+Shift+X` 打开扩展视图
-3. 搜索 `A-Reader` 或 `orange4moon.a-reader`
+3. 搜索 `OM-TXT-Reader` 或 `orange4moon.om-txt-reader`
 4. 点击 **"安装"** 按钮
 
 或者点击这里直接安装：
-[![Install](https://img.shields.io/badge/Install-A--Reader-blue?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=orange4moon.a-reader)
+[![Install](https://img.shields.io/badge/Install-OM--TXT--Reader-blue?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=orange4moon.om-txt-reader)
 
 ### 方式 2：通过命令行安装
 
 ```bash
-code --install-extension orange4moon.a-reader
+code --install-extension orange4moon.om-txt-reader
 ```
 
 ### 方式 3：从 VSIX 文件安装
 
-从 [Releases](https://github.com/orange4moon/a-reader/releases) 下载最新的 `.vsix` 文件，然后在 VS Code 中从 VSIX 安装。
+从 [Releases](https://github.com/orange4moon/om-txt-reader/releases) 下载最新的 `.vsix` 文件，然后在 VS Code 中从 VSIX 安装。
 
 ## 🚀 快速开始
 
 ### 首次使用
 
 1. 按 `Cmd/Ctrl+Shift+P` 打开命令面板
-2. 输入 **"a-reader: 打开配置"**
+2. 输入 **"om-txt-reader: 打开配置"**
 3. 选择包含 txt 文档的目录
 4. 配置默认的章节分割规则（可选）
 5. 保存配置
@@ -43,7 +43,7 @@ code --install-extension orange4moon.a-reader
 ### 开始阅读
 
 1. 按 `Cmd/Ctrl+Shift+P` 打开命令面板
-2. 输入 **"a-reader: 打开阅读器"**
+2. 输入 **"om-txt-reader: 打开阅读器"**
 3. 在书架中点击任意文档开始阅读
 
 ## 📖 使用指南
@@ -52,11 +52,11 @@ code --install-extension orange4moon.a-reader
 
 | 命令 | 说明 |
 |-----|------|
-| `a-reader: 打开阅读器` | 打开阅读器 |
-| `a-reader: 打开配置` | 打开配置 |
-| `a-reader: 搜索文本` | 在当前文档中搜索文本 |
-| `a-reader: 显示章节列表` | 显示章节列表 |
-| `a-reader: 配置当前文档章节分割规则` | 为当前文档设置专属章节分割规则 |
+| `om-txt-reader: 打开阅读器` | 打开阅读器 |
+| `om-txt-reader: 打开配置` | 打开配置 |
+| `om-txt-reader: 搜索文本` | 在当前文档中搜索文本 |
+| `om-txt-reader: 显示章节列表` | 显示章节列表 |
+| `om-txt-reader: 配置当前文档章节分割规则` | 为当前文档设置专属章节分割规则 |
 
 ### 快捷键
 
@@ -102,8 +102,8 @@ code --install-extension orange4moon.a-reader
 
 ```bash
 # 克隆仓库
-git clone https://github.com/orange4moon/a-reader.git
-cd a-reader
+git clone https://github.com/orange4moon/om-txt-reader.git
+cd om-txt-reader
 
 # 安装依赖
 npm install
@@ -131,7 +131,7 @@ npm run package
 
 ## 💡 反馈
 
-如有任何问题或建议，欢迎通过 [GitHub Issues](https://github.com/orange4moon/a-reader/issues) 反馈。
+如有任何问题或建议，欢迎通过 [GitHub Issues](https://github.com/orange4moon/om-txt-reader/issues) 反馈。
 
 ---
 
